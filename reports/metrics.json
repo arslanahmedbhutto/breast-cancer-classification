@@ -1,0 +1,82 @@
+{
+  "MLP":{
+    "cv_f1_mean":0.9672,
+    "cv_f1_std":0.0176,
+    "cv_roc_auc_mean":0.9947,
+    "test_accuracy":0.9737,
+    "test_precision":1.0,
+    "test_recall":0.9286,
+    "test_f1":0.963,
+    "test_roc_auc":0.9954
+  },
+  "SVM (RBF)":{
+    "cv_f1_mean":0.967,
+    "cv_f1_std":0.012,
+    "cv_roc_auc_mean":0.9949,
+    "test_accuracy":0.9737,
+    "test_precision":0.9756,
+    "test_recall":0.9524,
+    "test_f1":0.9639,
+    "test_roc_auc":0.9947
+  },
+  "Logistic Regression":{
+    "cv_f1_mean":0.964,
+    "cv_f1_std":0.0207,
+    "cv_roc_auc_mean":0.9958,
+    "test_accuracy":0.9649,
+    "test_precision":0.975,
+    "test_recall":0.9286,
+    "test_f1":0.9512,
+    "test_roc_auc":0.996
+  },
+  "K-Nearest Neighbors":{
+    "cv_f1_mean":0.9575,
+    "cv_f1_std":0.0116,
+    "cv_roc_auc_mean":0.986,
+    "test_accuracy":0.9561,
+    "test_precision":0.9744,
+    "test_recall":0.9048,
+    "test_f1":0.9383,
+    "test_roc_auc":0.9825
+  },
+  "Gradient Boosting":{
+    "cv_f1_mean":0.9553,
+    "cv_f1_std":0.0196,
+    "cv_roc_auc_mean":0.9908,
+    "test_accuracy":0.9649,
+    "test_precision":1.0,
+    "test_recall":0.9048,
+    "test_f1":0.95,
+    "test_roc_auc":0.9947
+  },
+  "Random Forest":{
+    "cv_f1_mean":0.9461,
+    "cv_f1_std":0.0226,
+    "cv_roc_auc_mean":0.988,
+    "test_accuracy":0.9737,
+    "test_precision":1.0,
+    "test_recall":0.9286,
+    "test_f1":0.963,
+    "test_roc_auc":0.9944
+  },
+  "Naive Bayes":{
+    "cv_f1_mean":0.917,
+    "cv_f1_std":0.0342,
+    "cv_roc_auc_mean":0.987,
+    "test_accuracy":0.9211,
+    "test_precision":0.9231,
+    "test_recall":0.8571,
+    "test_f1":0.8889,
+    "test_roc_auc":0.9891
+  },
+  "Decision Tree":{
+    "cv_f1_mean":0.8717,
+    "cv_f1_std":0.0573,
+    "cv_roc_auc_mean":0.8875,
+    "test_accuracy":0.9211,
+    "test_precision":0.9459,
+    "test_recall":0.8333,
+    "test_f1":0.8861,
+    "test_roc_auc":0.9448
+  }
+}
