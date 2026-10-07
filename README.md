@@ -78,6 +78,10 @@ uvicorn app.main:app --reload
 
 Interactive docs open at http://127.0.0.1:8000/docs.
 
+![Swagger UI showing the endpoints and the /predict request body](docs/screenshots/output1.png)
+
+![Swagger UI showing the /predict response schema and validation error format](docs/screenshots/output2.png)
+
 | Method | Endpoint | Description |
 |---|---|---|
 | GET | `/health` | Liveness check, plus whether the model is loaded |
