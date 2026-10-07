@@ -55,7 +55,7 @@ All 8 models were evaluated the same way: a stratified 80/20 train/test split, t
 ## Quickstart
 
 ```bash
-git clone https://github.com/<your-username>/breast-cancer-classification.git
+git clone https://github.com/arslanahmedbhutto/breast-cancer-classification.git
 cd breast-cancer-classification
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
