@@ -11,7 +11,3 @@ Thumbs.db
 
 # Original notebook outputs (scaler fit before the split); superseded by models/model.joblib
 models/legacy/
-branch_structure.json
-temp_auto_push.bat
-temp_interactive_push.bat
-.gitignore
